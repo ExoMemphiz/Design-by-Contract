@@ -15,6 +15,7 @@ By using Contract.Requires the application requires a given input to the functio
   
 An example being the Deposit function only requiring the deposited amount to be greater than 0.  
 If this is not the case, a custom error is thrown.  
+  
 The error ArgumentOutOfRangeException was chosen as it suits the required exception -  
 although there might exist one that fits better.  
   
