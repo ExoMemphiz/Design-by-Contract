@@ -13,8 +13,10 @@ The project is written in C#, and includes 2 main files, the Account.cs, and Pro
 Account.cs is the implementation of an account, where the Design by Contract code is located.  
 By using Contract.Requires the application requires a given input to the function to be valid with all specified requirements.  
   
-An example being the Deposit function only requiring the deposited amount to be greater than 0, otherwise a custom error is thrown.  
-The error ArgumentOutOfRangeException was chosen as it suits the required exception, although there might exist one that fits better.  
+An example being the Deposit function only requiring the deposited amount to be greater than 0.  
+If this is not the case, a custom error is thrown.  
+The error ArgumentOutOfRangeException was chosen as it suits the required exception -  
+although there might exist one that fits better.  
   
   
 Additionally, the Withdraw function has 2 requirements  
