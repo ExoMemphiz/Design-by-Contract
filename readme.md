@@ -1,6 +1,6 @@
 # Assignment #7 - Design by Contract
   
-Made by Chris Rosendorf  
+Made by Chris Rosendorf  & Viktor Christiansen
   
   
 ### Project
